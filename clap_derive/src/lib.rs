@@ -13,7 +13,7 @@
 // MIT/Apache 2.0 license.
 
 #![doc(html_logo_url = "https://raw.githubusercontent.com/clap-rs/clap/master/assets/clap.png")]
-#![doc = include_str!("../README.md")]
+// #![doc = include_str!("../README.md")]
 #![forbid(unsafe_code)]
 
 extern crate proc_macro;
