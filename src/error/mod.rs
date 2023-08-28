@@ -239,7 +239,7 @@ impl Error {
         mut self,
         context: [(ContextKind, ContextValue); N],
     ) -> Self {
-        self.inner.context.extend(context);
+        self.inner.context.extend_from_slice(&context);
         self
     }
 
